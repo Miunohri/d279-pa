@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Instrument Sans", sans-serif;
+}
+
+nav {
+    list-style: none;
+    text-align: right;
+    background: #fff;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.navlist li {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.navlist li a{
+    display: block;
+    padding: 20px 100px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.navlist li a:hover {
+    background: #f1f1f1;
+}
+
+h1 { 
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+    font-weight: 400;
+}
+
+h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    font-size: 30px;
+}
+
+p {
+    font-size: 16px;
+    padding-bottom: 30px;
+    text-wrap: wrap;
+    text-indent: initial;
+}
+
+.plist li{
+    font-size: 16px;
+    padding-bottom: 30px;
+    text-wrap: wrap;
+    list-style: square;
+}
+
+footer {
+    background-color: #003B6D;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
