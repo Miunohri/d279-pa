@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Contact | Paradigmn Pet Professionals</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul class="navlist">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cat.html">Cats</a></li>
+                    <li><a href="dog.html">Dogs</a></li>
+                    <li><a href="small-animals.html">Small Animals</a></li>
+                </ul>
+            </nav>
+            <img src="" alt="Paradigm Pet Professionals logo">
+        </header>
+        <h1>CONTACT</h1>
+
+        <form name="myForm" action="submitted.html" method="GET" enctype="multipart/form-data" onsubmit="return emailMatch()">
+            <div class="form-header">
+                <h2>Your information:</h2>
+            </div>
+            <div id="form">
+                <label for="yourName">Name:</label>
+                <input type="text" name="yourName" id="yourName" required>
+            </div>
+            <div id="form">
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div id="form">
+                <label for="timeZone">Time Zone:</label>
+                <input type="text" name="timeZone" id="timeZone" required>
+            </div>
+            <div id="form">
+                <label for="phoneNumber">Phone Number:</label>
+                <input type="text" name="phoneNumber" id="phoneNumber" required>
+            </div>
+
+            <div class="form-header">
+                <h2>Pet's information:</h2>
+            </div>
+            <div id="form">
+                <label for="petsName">Name:</label>
+                <input type="text" name="petsName" id="petsName" required>
+            <div id="form">
+                <label for="type">Type:</label>
+                <input type="text" name="type" id="type" required>
+            </div>
+            <div id="form">
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" min= "0" required>
+            </div>
+
+            <div>
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </body>
+    <footer>
+        <p>ABOUT</p>
+        <p><a href=contact.html>Contact</a></p>
+        <p>MORE RESOURCES</p>
+        <p><a href=FAQs.html>FAQs</a></p>
+    </footer>
+</html>
