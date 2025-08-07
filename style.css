@@ -7,11 +7,19 @@ body {
     font-family: "Instrument Sans", sans-serif;
 }
 
-nav {
+.navbar {
     list-style: none;
     text-align: right;
-    background: #fff;
+    background-color: #fff;
     font-family: "Instrument Sans", sans-serif;
+    width: 100%;
+    height: 84px;
+}
+
+.logo {
+    vertical-align: top;
+    float: left;
+    padding: 20px 80px;
 }
 
 .navlist li {
@@ -19,15 +27,19 @@ nav {
     position: relative;
     text-align: center;
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.navlist li a{
-    display: block;
+.navlist li a {
+    display: inline-block;
     padding: 20px 100px;
     text-decoration: none;
     text-align: center;
     font-size: 14px;
     justify-content: center;
+    color: #000;
+    vertical-align: top;
 }
 
 .navlist li a:hover {
@@ -37,27 +49,39 @@ nav {
 h1 { 
     text-align: center;
     font-size: 30px;
-    padding-bottom: 25px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     font-weight: 400;
 }
 
+.container1 {
+    padding-top: 60px;
+}
+
+.container2 {
+    padding-right: 80px;
+}
+
 h2 {
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 30px;
 }
 
-p {
+.textbody {
     font-size: 16px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     text-wrap: wrap;
-    text-indent: initial;
+}
+
+.lastp {
+    padding-top: 20px;
+    padding-bottom: 70px;
 }
 
 .plist li{
     font-size: 16px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     text-wrap: wrap;
     list-style: square;
 }
@@ -68,5 +92,54 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: auto 150px 150px auto;
+    gap: 125px;
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+footer p {
+    font-size: 12;
+    white-space: nowrap;
+    padding-bottom: 15px;
+}
+
+.button {
+    font-family: "Instrument Sans", sans-serif;
+    background-color: #6699cc;
+    font-size: 16px;
+    padding: 16px 40px;
+    border-radius: 12px;
+    margin-bottom: 45px;
+    border-color: #6699cc;
+}
+
+.buttonlink {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    padding-left: 0px;
+    padding-right: 100px;
+    overflow-y: scroll;
+}
+
+.mainimg {
+    padding-top: 40px;
+}
+
+.footerheader {
+    color: #bdbdbd;
+}
+
+.footerlink {
+    text-decoration: none;
+    color: #000;
 }
