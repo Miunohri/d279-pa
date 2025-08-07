@@ -8,71 +8,74 @@
     </head>
 
     <body>
-        <header>
-            <nav class="navbar">
-                <a href="index.html"><img src="imgs/ppplogo.png" alt="Paradigm Pet Professionals logo" width="149px" height="64px" class="logo"></a>
-                <ul class="navlist">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="cat.html">Cats</a></li>
-                    <li><a href="dog.html">Dogs</a></li>
-                    <li><a href="small-animals.html">Small Animals</a></li>
-                </ul>
-            </nav>
-        </header>
-        <h1>CONTACT</h1>
+        <div class="site">
+            <header>
+                <nav class="navbar">
+                    <a href="index.html"><img src="imgs/ppplogo.png" alt="Paradigm Pet Professionals logo" width="149px" height="64px" class="logo"></a>
+                    <ul class="navlist">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="cat.html">Cats</a></li>
+                        <li><a href="dog.html">Dogs</a></li>
+                        <li><a href="small-animals.html">Small Animals</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <h1>CONTACT</h1>
+            <img src="imgs/pppcontact.jpg" alt="Consultation" width="400px" class="contactimg">
+            <form name="myForm" action="submitted.html" method="GET" enctype="multipart/form-data" onsubmit="return emailMatch()">
+                <div>
+                    <h2 class="formheader">Your information:</h2>
+                </div>
+                <div id="form">
+                    <label for="yourName">Name:</label>
+                    <input type="text" name="yourName" id="yourName" required>
+                </div>
+                <div id="form">
+                    <label for="email">Email Address:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div id="form">
+                    <label for="timeZone">Time Zone:</label>
+                    <input type="text" name="timeZone" id="timeZone" required>
+                </div>
+                <div id="form">
+                    <label for="phoneNumber">Phone Number:</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" required>
+                </div>
 
-        <form name="myForm" action="submitted.html" method="GET" enctype="multipart/form-data" onsubmit="return emailMatch()">
-            <div class="form-header">
-                <h2>Your information:</h2>
-            </div>
-            <div id="form">
-                <label for="yourName">Name:</label>
-                <input type="text" name="yourName" id="yourName" required>
-            </div>
-            <div id="form">
-                <label for="email">Email Address:</label>
-                <input type="email" name="email" id="email" required>
-            </div>
-            <div id="form">
-                <label for="timeZone">Time Zone:</label>
-                <input type="text" name="timeZone" id="timeZone" required>
-            </div>
-            <div id="form">
-                <label for="phoneNumber">Phone Number:</label>
-                <input type="text" name="phoneNumber" id="phoneNumber" required>
-            </div>
+                <div>
+                    <h2  class="formheader">Pet's information:</h2>
+                </div>
+                <div id="form">
+                    <label for="petsName">Name:</label>
+                    <input type="text" name="petsName" id="petsName" required>
+                </div>
+                <div id="form">
+                    <label for="type">Type:</label>
+                    <input type="text" name="type" id="type" required>
+                </div>
+                <div id="form">
+                    <label for="age">Age:</label>
+                    <input type="text" name="age" id="age" required>
+                </div>
 
-            <div class="form-header">
-                <h2>Pet's information:</h2>
-            </div>
-            <div id="form">
-                <label for="petsName">Name:</label>
-                <input type="text" name="petsName" id="petsName" required>
-            <div id="form">
-                <label for="type">Type:</label>
-                <input type="text" name="type" id="type" required>
-            </div>
-            <div id="form">
-                <label for="age">Age:</label>
-                <input type="number" name="age" id="age" min= "0" required>
-            </div>
+                <div>
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </form>
 
-            <div>
-                <input type="submit" value="Submit">
-            </div>
-        </form>
-
-        <footer>
-            <div class="whitespace"></div>
-            <div>
-                <p class="footerheader">ABOUT</p>
-                <p><a href=contact.html  class="footerlink">Contact</a></p>
-            </div>
-            <div>
-                <p class="footerheader">MORE RESOURCES</p>
-                <p><a href=FAQs.html  class="footerlink">FAQs</a></p>
-            </div>
-            <div class="whitespace"></div>
-        </footer>
+            <footer>
+                <div class="whitespace"></div>
+                <div>
+                    <p class="footerheader">ABOUT</p>
+                    <p><a href=contact.html  class="footerlink">Contact</a></p>
+                </div>
+                <div>
+                    <p class="footerheader">MORE RESOURCES</p>
+                    <p><a href=FAQs.html  class="footerlink">FAQs</a></p>
+                </div>
+                <div class="whitespace"></div>
+            </footer>
+        </div>
     </body>
 </html>
