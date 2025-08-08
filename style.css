@@ -45,7 +45,7 @@ body {
 
 .navlist li a {
     display: inline-block;
-    padding: 20px 100px;
+    padding: 20px 80px;
     text-decoration: none;
     text-align: center;
     font-size: 14px;
@@ -68,11 +68,9 @@ h1 {
 
 .container1 {
     padding-top: 60px;
-    padding-left: 80px;
 }
 
 .container2 {
-    padding-right: 80px;
     margin-bottom: 20px;
 }
 
